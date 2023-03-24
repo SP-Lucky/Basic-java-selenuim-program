@@ -6,17 +6,17 @@ public class test {
 	{
 //		System.out.println();
 		int a=10,b=4;
-//		System.out.println("\n enter a,b");
-////		if(a<=b)
-//		{
-//			System.out.println("\n yes");
-//			
-//		}
-//		else
-//		{
-//			System.out.println("\n no");
-//		}
-//		
+		System.out.println("\n enter a,b");
+		if(a<=b)
+		{
+			System.out.println("\n yes");
+			
+		}
+		else
+		{
+			System.out.println("\n no");
+		}
+		
 		for(int i=1;i<=20;i++)
 		{
 			for(int j=1;j<=10;j++)
