@@ -69,5 +69,5 @@ public class Methodsofstring {
 		q.m1();
 
 	}
-
+   
 }
