@@ -21,11 +21,11 @@ public class Gmail {
 		driver.get("https://mail.google.com/mail/?tab=rm&authuser=0&ogbl\"");
 		driver.findElement(By.xpath("//input[@id=\"identifierId\"]")).sendKeys("splucky.456@gmail.com");
 		
-		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[3]")).click();
+		driver.findElement(By.xpath("//*[@class=\"VfPpkd-vQzf8d\"]")).click();
 //		driver.findElement(By.xpath("//button[@name=\"login\"]")).click();
 		
 //		List<WebElement>links=driver.findElements(By.tagName("a"));
-//		driver.close();
+		driver.close();
 		
 		
 	}

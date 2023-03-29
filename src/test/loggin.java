@@ -1,5 +1,7 @@
 package test;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.WebDriver;
@@ -12,17 +14,19 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class loggin {
 
 	public static void main(String[] args) {
-//		WebDriverManager.chromedriver().setup();
+	
 		  
 //		  System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Chromedriver");
-		  ChromeOptions options = new ChromeOptions();
-		  options.addArguments("--remote-allow-origins=*");
-		  ChromeDriver driver=new ChromeDriver();
+//		  ChromeOptions options = new ChromeOptions();
+//		  options.addArguments("--remote-allow-origins=*");
+		  WebDriverManager.edgedriver().setup();
+		  WebDriver driver=new EdgeDriver();
+		  
 		  driver.manage().window().maximize();
 		  driver.get("https://www.google.com/");
 //		  driver.findElement(By.xpath("//textarea[@id=\"APjFqb\"]")).sendKeys("shiva god");
-//		  
-//		  driver.close();
+		  
+		  driver.close();
 
 
 	}
