@@ -21,7 +21,9 @@ public class facebook {
 	  driver.manage().window().maximize();
 	  driver.get("https://www.facebook.com/");
 	  driver.findElement(By.xpath("//input[@id=\"email\"]")).sendKeys("9533688843");
-	  driver.findElement(By.xpath("//input[@id=\"pass\"]")).sendKeys("Shiva_143");
+	  driver.findElement(By.xpath("//input[@id=\"pass\"]")).sendKeys("Shiva_142");
+	  driver.findElement(By.xpath("//button[@name=\"login\"]")).click();
+	  driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("Shiva_143");
 	  driver.findElement(By.xpath("//button[@name=\"login\"]")).click();
 //	  driver.close();
 
